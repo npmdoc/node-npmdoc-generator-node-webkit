@@ -56,6 +56,15 @@
 
         <li>
 
+            <a class="apidocElementLiA" href="#apidoc.element.generator-node-webkit.generator-node-webkit">
+            function <span class="apidocSignatureSpan"></span>generator-node-webkit
+            <span class="apidocSignatureSpan">(args, options)</span>
+            </a>
+
+        </li>
+
+        <li>
+
             <a class="apidocElementLiA" href="#apidoc.element.generator-node-webkit.super_">
             function <span class="apidocSignatureSpan">generator-node-webkit.</span>super_
             <span class="apidocSignatureSpan">(args, options)</span>
@@ -4570,6 +4579,30 @@
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.generator-node-webkit" id="apidoc.module.generator-node-webkit">module generator-node-webkit</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.generator-node-webkit.generator-node-webkit" id="apidoc.element.generator-node-webkit.generator-node-webkit">
+        function <span class="apidocSignatureSpan"></span>generator-node-webkit
+        <span class="apidocSignatureSpan">(args, options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function NodeWebkitGenerator(args, options) {
+  yeoman.generators.Base.apply(this, arguments);
+
+  this.on('end', function () {
+    this.installDependencies({
+      skipInstall: options['skip-install']
+    });
+  });
+
+  this.pkg = JSON.parse(readFileAsString(path.join(__dirname, '../package.json')));
+  this.github = false;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
 
 
     <h2>
