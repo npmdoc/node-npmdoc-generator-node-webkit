@@ -45,15 +45,17 @@ npmdoc-generator-node-webkit@0.0.1 /home/travis/build/npmdoc/node-npmdoc-generat
   │ ├─┬ create-error-class@3.0.2 
   │ │ └── capture-stack-trace@1.0.0 
   │ ├─┬ duplexer2@0.1.4 
-  │ │ └─┬ readable-stream@2.2.6 
-  │ │   └── isarray@1.0.0 
+  │ │ └─┬ readable-stream@2.2.9 
+  │ │   ├── isarray@1.0.0 
+  │ │   └── string_decoder@1.0.0 
   │ ├── is-redirect@1.0.0 
   │ ├── is-retry-allowed@1.1.0 
   │ ├── node-status-codes@1.0.0 
   │ ├── object-assign@4.1.1 
   │ ├── read-all-stream@3.1.0 
-  │ ├─┬ readable-stream@2.2.6 
-  │ │ └── isarray@1.0.0 
+  │ ├─┬ readable-stream@2.2.9 
+  │ │ ├── isarray@1.0.0 
+  │ │ └── string_decoder@1.0.0 
   │ ├── timed-out@3.1.3 
   │ ├── unzip-response@1.0.2 
   │ └── url-parse-lax@1.0.0 
@@ -76,8 +78,9 @@ npmdoc-generator-node-webkit@0.0.1 /home/travis/build/npmdoc/node-npmdoc-generat
   ├─┬ npm-keyword@4.2.0 
   │ ├─┬ got@5.7.1 
   │ │ ├── read-all-stream@3.1.0 
-  │ │ ├─┬ readable-stream@2.2.6 
-  │ │ │ └── isarray@1.0.0 
+  │ │ ├─┬ readable-stream@2.2.9 
+  │ │ │ ├── isarray@1.0.0 
+  │ │ │ └── string_decoder@1.0.0 
   │ │ └── timed-out@3.1.3 
   │ ├── object-assign@4.1.1 
   │ └─┬ registry-url@3.1.0 
@@ -90,10 +93,11 @@ npmdoc-generator-node-webkit@0.0.1 /home/travis/build/npmdoc/node-npmdoc-generat
   │ ├─┬ got@5.7.1 
   │ │ ├── object-assign@4.1.1 
   │ │ ├── read-all-stream@3.1.0 
-  │ │ ├─┬ readable-stream@2.2.6 
-  │ │ │ └── isarray@1.0.0 
+  │ │ ├─┬ readable-stream@2.2.9 
+  │ │ │ ├── isarray@1.0.0 
+  │ │ │ └── string_decoder@1.0.0 
   │ │ └── timed-out@3.1.3 
-  │ └─┬ registry-auth-token@3.1.1 
+  │ └─┬ registry-auth-token@3.1.2 
   │   └─┬ rc@1.2.1 
   │     ├── deep-extend@0.4.1 
   │     └── strip-json-comments@2.0.1 
