@@ -1,6 +1,6 @@
 # npmdoc-generator-node-webkit
 
-#### api documentation for  [generator-node-webkit (v1.0.4)](https://github.com/Dica-Developer/generator-node-webkit)  [![npm package](https://img.shields.io/npm/v/npmdoc-generator-node-webkit.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-generator-node-webkit) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-generator-node-webkit.svg)](https://travis-ci.org/npmdoc/node-npmdoc-generator-node-webkit)
+#### basic api documentation for  [generator-node-webkit (v1.0.4)](https://github.com/Dica-Developer/generator-node-webkit)  [![npm package](https://img.shields.io/npm/v/npmdoc-generator-node-webkit.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-generator-node-webkit) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-generator-node-webkit.svg)](https://travis-ci.org/npmdoc/node-npmdoc-generator-node-webkit)
 
 #### A generator for node-webkit
 
@@ -83,7 +83,8 @@
     "scripts": {
         "test": "mocha test -R mocha-lcov-reporter | coveralls"
     },
-    "version": "1.0.4"
+    "version": "1.0.4",
+    "bin": {}
 }
 ```
 
